@@ -1,7 +1,7 @@
 # Building and Executing
 This project is optimized to be built with the following targets in mind:
 - Windows 11 MinGW 64-bit GCC 14.2.0
-- Ubuntu 18.04 GLIBC Version 2.27
+- Ubuntu 22.04 GLIBC Version 2.35
 
 Version information for dependencies can be found in `external/version_info.txt`.
 
