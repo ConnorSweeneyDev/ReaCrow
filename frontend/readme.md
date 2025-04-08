@@ -13,5 +13,9 @@ Do the following to ensure your environment is setup correctly:
 
 ### Linux
 Do the following to ensure your environment is setup correctly:
-- Install Node by running `sudo apt install nodejs`.
+- Install Node by running the following commands:
+  - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash`
+  - `source ~/.bashrc`
+  - `nvm list-remote`
+  - `nvm install [LATEST VERSION]`
 - Run `npm install` from the root of the project.
