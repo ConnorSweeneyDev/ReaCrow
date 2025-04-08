@@ -4,7 +4,7 @@ This project is optimized to be build on the following targets:
 - Ubuntu 22.04
 
 After following the platform specific instructions below you can execute `script/run.sh` from the root of the project to
-build and run the project.
+run it.
 
 ### Windows
 Do the following to ensure your environment is setup correctly:
