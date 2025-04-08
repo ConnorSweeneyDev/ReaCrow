@@ -5,7 +5,7 @@ This project is optimized to be built with the following targets in mind:
 
 Version information for dependencies can be found in `external/version_info.txt`.
 
-By default, the executables are statically linked, although requirements for linking vary by project.
+The output executable is fully statically linked.
 
 After following the platform specific instructions below you can execute `script/build.sh` followed by `script/run.sh`
 from the root of the project to build and run the project.
