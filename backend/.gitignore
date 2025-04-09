@@ -27,3 +27,6 @@ compile_commands.json
 # Executables
 backend.exe
 backend.out
+
+# Database
+*.db

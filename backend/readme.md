@@ -29,3 +29,8 @@ release. Extract it and put the contents of the `include` directory in `external
 # Updating ASIO
 Go to the [official ASIO website](https://think-async.com/Asio/) and download the release you want from the download
 link. Extract it and put the contents of the `include` directory in `external/include/asio` in this project.
+
+# Updating SQLite
+Go to the [official SQLite website](https://www.sqlite.org/) and download the sqlite-amalgamation zip file for the
+version you want. Extract it and put `sqlite3.h` in `external/include/sqlite` and `sqlite3.c` in
+`external/source/sqlite` in this project.

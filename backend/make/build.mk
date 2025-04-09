@@ -6,6 +6,9 @@ directories:
 $(BINARY_OBJECT_DIRECTORY)/%.o: $(PROGRAM_SOURCE_DIRECTORY)/%.cpp
 	@$(CXX) $(CXX_FLAGS) $(WARNINGS) $(INCLUDES) $(SYSTEM_INCLUDES) -c $< -o $@
 	@echo "CXX | $@"
+$(BINARY_OBJECT_DIRECTORY)/%.o: $(EXTERNAL_SOURCE_DIRECTORY)/sqlite/%.c
+	@$(CC) $(CC_FLAGS) $(INCLUDES) $(SYSTEM_INCLUDES) -c $< -o $@
+	@echo "CCO | $@"
 -include $(DEPENDENCY_FILES)
 
 $(OUTPUT_FILE): $(OBJECT_FILES)
