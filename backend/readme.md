@@ -22,15 +22,18 @@ Do the following on Ubuntu to ensure your environment is set up correctly:
 - Only run `sudo apt update && sudo apt upgrade` if you haven't already.
 - Run `sudo apt install git g++ gdb make`.
 
-# Updating Crow
+# Updating Libraries
+All libraries are either header-only or included as source files.
+
+### Crow
 Go to the [releases page](https://github.com/CrowCpp/Crow/releases) and download the source code for the desired
 release. Extract it and put the contents of the `include` directory in `external/include/crow` in this project.
 
-# Updating ASIO
+### ASIO
 Go to the [official ASIO website](https://think-async.com/Asio/) and download the release you want from the download
 link. Extract it and put the contents of the `include` directory in `external/include/asio` in this project.
 
-# Updating SQLite
+### SQLite
 Go to the [official SQLite website](https://www.sqlite.org/) and download the sqlite-amalgamation zip file for the
 version you want. Extract it and put `sqlite3.h` in `external/include/sqlite` and `sqlite3.c` in
 `external/source/sqlite` in this project.
